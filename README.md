@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome
+
+This project is intended to serve as a starting point to explore working with [three.js](https://threejs.org/) and [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
