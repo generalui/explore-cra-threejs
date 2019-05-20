@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App/App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import ThreeDemo from './components/ThreeDemo/ThreeDemo'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<ThreeDemo />, document.getElementById('root'))
