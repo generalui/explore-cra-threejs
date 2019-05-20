@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react'
-import useWindowHeightAndWidth from '../../hooks/useWindowHeightAndWidth'
+
+// Custom hooks
+import useWindowSize from '../../hooks/useWindowSize'
 
 export default () => {
-  const { width, height } = useWindowHeightAndWidth() // Our custom hook
+  const { width, height } = useWindowSize()
 
   return (
     <Fragment>
