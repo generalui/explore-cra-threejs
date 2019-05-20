@@ -9,6 +9,14 @@ export default () => {
   return (
     <Fragment>
       Width: {width} || Height: {height}
+      <br />
+      {/* TODO: Display the three.js scene here */}
+      {/* <div
+        className="three"
+        ref={el => {
+          this.three = el
+        }}
+      /> */}
     </Fragment>
   )
 }
