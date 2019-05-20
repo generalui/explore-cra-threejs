@@ -2,6 +2,8 @@
 
 This project is intended to serve as a starting point to explore working with [three.js](https://threejs.org/) and [Create React App](https://github.com/facebook/create-react-app).
 
+The original ThreeDemo code was based off [https://github.com/jasonsturges/threejs-react-example](https://github.com/jasonsturges/threejs-react-example)
+
 ## Available Scripts
 
 In the project directory, you can run:
