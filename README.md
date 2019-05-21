@@ -2,7 +2,9 @@
 
 This project is intended to serve as a starting point to explore working with [three.js](https://threejs.org/) and [Create React App](https://github.com/facebook/create-react-app).
 
-The original ThreeDemo code was based off [https://github.com/jasonsturges/threejs-react-example](https://github.com/jasonsturges/threejs-react-example)
+The original ThreeDemo code was based on [https://github.com/jasonsturges/threejs-react-example](https://github.com/jasonsturges/threejs-react-example)
+
+Special thanks to [@aarosil](https://github.com/aarosil) for not only creating [react-three-hook](https://github.com/aarosil/react-three-hook) but more importantly including detailed documentation and concepts that helped solidify some advanced concepts in a very succinct and easy to digest manner.
 
 ## Available Scripts
 
@@ -37,9 +39,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
