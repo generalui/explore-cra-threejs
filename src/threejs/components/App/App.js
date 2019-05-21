@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import CubeExample from '../../examples/cube/CubeExample'
+import GLTFExample from '../../examples/load-gltf/GLTFExample'
 
 export default () => {
   return (
@@ -15,10 +16,14 @@ export default () => {
             <div>
               <Link to="/cube">Cube</Link>
             </div>
+            <div>
+              <Link to="/gltf">GLTF 3D model</Link>
+            </div>
           </div>
         )}
       />
       <Route path="/cube" component={CubeExample} />
+      <Route path="/gltf" component={GLTFExample} />
     </div>
   </Router>
   )
