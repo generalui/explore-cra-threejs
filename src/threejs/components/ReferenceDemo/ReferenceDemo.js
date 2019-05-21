@@ -1,7 +1,7 @@
 import React from 'react'
 import * as lib from './lib/index'
 
-export default class ThreeDemo extends React.Component {
+export default class ReferenceDemo extends React.Component {
   /**
    * Rendering
    */

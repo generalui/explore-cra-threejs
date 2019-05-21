@@ -1,12 +1,12 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import ThreeDemoWithHooks from './ThreeDemoWithHooks'
+import ReferenceDemoWithHooks from './ReferenceDemoWithHooks'
 
-describe(`ThreeDemoWithHooks`, () => {
+describe(`ReferenceDemoWithHooks`, () => {
   let wrapper
 
   beforeAll(() => {
-    wrapper = shallow(<ThreeDemoWithHooks />)
+    wrapper = shallow(<ReferenceDemoWithHooks />)
   })
 
   it(`should render`, () => {
