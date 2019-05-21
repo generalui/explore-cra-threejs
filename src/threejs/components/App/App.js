@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import CubeExample from '../../examples/cube/CubeExample'
 
 export default () => {
   return (
@@ -17,7 +18,7 @@ export default () => {
           </div>
         )}
       />
-      {/* <Route path="/cube" component={CubeExample} /> */}
+      <Route path="/cube" component={CubeExample} />
     </div>
   </Router>
   )
