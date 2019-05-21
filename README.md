@@ -11,6 +11,7 @@ Some key features of this repo include
   - Sample tests were written in `src/threejs/components/ReferenceDemo/lib/index.test.js` demonstrating how you can programatically test WebGL in a headless environment
 
 ![screencasts/demo.gif](screencasts/demo.gif)
+![screencasts/demo-gltf.gif](screencasts/demo-gltf.gif)
 
 The original ThreeDemo code was based on [https://github.com/jasonsturges/threejs-react-example](https://github.com/jasonsturges/threejs-react-example)
 
