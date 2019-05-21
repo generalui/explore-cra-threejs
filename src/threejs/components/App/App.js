@@ -11,7 +11,7 @@ export default () => {
         path="/"
         render={() => (
           <div>
-            <h2>Examples:</h2>
+            <h2>CRA three.js examples</h2>
             <div>
               <Link to="/cube">Cube</Link>
             </div>
