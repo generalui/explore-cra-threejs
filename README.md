@@ -2,6 +2,8 @@
 
 This project is intended to serve as a starting point to explore working with [three.js](https://threejs.org/) and [Create React App](https://github.com/facebook/create-react-app).
 
+![screencasts/demo.gif](screencasts/demo.gif)
+
 The original ThreeDemo code was based on [https://github.com/jasonsturges/threejs-react-example](https://github.com/jasonsturges/threejs-react-example)
 
 Special thanks to [@aarosil](https://github.com/aarosil) for not only creating [react-three-hook](https://github.com/aarosil/react-three-hook) but more importantly including detailed documentation and concepts that helped solidify some advanced concepts in a very succinct and easy to digest manner.
