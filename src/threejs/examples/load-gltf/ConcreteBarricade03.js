@@ -1,9 +1,7 @@
-import * as THREE from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import { useEffect } from 'react'
 import { useThree } from '../../lib/SceneManager'
 
-const ConcreteBarricade03 = props => {
+const ConcreteBarricade03 = () => {
 
   const setup = context => {
     const { scene } = context
