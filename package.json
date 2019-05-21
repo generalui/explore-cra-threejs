@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "yarn test --coverage --watchAll=false",
+    "test:coverage:html": "yarn test --coverage --reporter='html' --watchAll=false && open coverage/lcov-report/index.html",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
