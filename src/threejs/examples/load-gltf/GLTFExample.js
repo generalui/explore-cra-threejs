@@ -3,7 +3,7 @@ import SceneManager from '../../lib/SceneManager'
 import CameraControls from './CameraControls'
 import { getCamera, getRenderer, getScene } from './threeSetup'
 
-import Cube from '../cube/Cube'
+import ConcreteBarricade03 from './ConcreteBarricade03'
 
 const GLTFExample = () => {
   return (
@@ -19,7 +19,7 @@ const GLTFExample = () => {
       }}
     >
       <CameraControls />
-      <Cube />
+      <ConcreteBarricade03 />
     </SceneManager>
   )
 }
