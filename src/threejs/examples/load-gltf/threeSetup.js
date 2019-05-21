@@ -1,13 +1,24 @@
 import * as THREE from 'three'
 
 export const getCamera = ({ offsetWidth, offsetHeight }) => {
+  /*
+    PerspectiveCamera( fov : Number, aspect : Number, near : Number, far : Number )
+
+    fov — Camera frustum vertical field of view.
+    aspect — Camera frustum aspect ratio.
+    near — Camera frustum near plane.
+    far — Camera frustum far plane.
+  */
   const camera = new THREE.PerspectiveCamera(
     75,
     offsetWidth / offsetHeight,
     0.1,
     1000
   )
-  camera.position.set(50, 150, 0)
+  camera.position.set(10, 150, 10)
+
+  // Set up zoom
+  camera.zoom = 130
 
   return camera
 }
@@ -34,14 +45,6 @@ export const getScene = () => {
   light.position.set(50, 200, 0)
   light.rotation.z = (90 * Math.PI) / 180
   scene.add(light)
-
-  const planeGeometry = new THREE.PlaneBufferGeometry(10000, 10000, 32, 32)
-  const planeMaterial = new THREE.MeshPhongMaterial({ color: 0xcccccc })
-  const plane = new THREE.Mesh(planeGeometry, planeMaterial)
-
-  plane.rotation.x = (-90 * Math.PI) / 180
-  plane.receiveShadow = true
-  scene.add(plane)
 
   return scene
 }
