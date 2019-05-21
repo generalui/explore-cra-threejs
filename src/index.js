@@ -4,4 +4,5 @@ import ThreeDemo from './components/ThreeDemo/ThreeDemo'
 import ThreeDemoWithHooks from './components/ThreeDemo/ThreeDemoWithHooks'
 
 ReactDOM.render(<ThreeDemoWithHooks />, document.getElementById('three-demo-with-hooks-v1'))
+// ReactDOM.render(<ThreeDemoWithHooks />, document.getElementById('three-demo-with-hooks-v2'))
 ReactDOM.render(<ThreeDemo />, document.getElementById('three-demo-original'))
