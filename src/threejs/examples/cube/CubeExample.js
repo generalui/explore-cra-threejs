@@ -6,7 +6,7 @@ import CameraControls from './CameraControls'
 import { getCamera, getRenderer, getScene } from './threeSetup'
 
 const CubeExample = () => {
-  const [color, changeColor] = useState('0000ff')
+  const [color, changeColor] = useState('FF00FF')
   const [showGrid, toggleShowGrid] = useState(true)
   const [showCube, toggleShowCube] = useState(true)
 
