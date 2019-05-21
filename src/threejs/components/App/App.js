@@ -1,5 +1,24 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 export default () => {
-  return (<h1>[DEMO] React and three.js</h1>)
+  return (
+    <Router>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <Route
+        exact
+        path="/"
+        render={() => (
+          <div>
+            <h2>Examples:</h2>
+            <div>
+              <Link to="/cube">Cube</Link>
+            </div>
+          </div>
+        )}
+      />
+      {/* <Route path="/cube" component={CubeExample} /> */}
+    </div>
+  </Router>
+  )
 }
