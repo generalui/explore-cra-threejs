@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef } from 'react'
-import { ThreeJSContext } from './ThreeJSManager'
+import { ThreeJSContext } from './SceneManager'
 
 const noop = () => {}
 

@@ -6,7 +6,7 @@ import useAnimationFrame from './useAnimationFrame'
 
 export const ThreeJSContext = createContext()
 
-const ThreeJSManager = ({
+const SceneManager = ({
   children,
   getCamera,
   getRenderer,
@@ -63,4 +63,4 @@ const ThreeJSManager = ({
   )
 }
 
-export default ThreeJSManager
+export default SceneManager

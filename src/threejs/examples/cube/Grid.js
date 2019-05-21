@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { useThree } from '../../lib/ThreeJSManager'
+import { useThree } from '../../lib/SceneManager'
 
 const Grid = () => {
   useThree(({ scene }) => {

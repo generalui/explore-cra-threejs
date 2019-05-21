@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SceneManager from '../../lib/ThreeJSManager'
+import SceneManager from '../../lib/SceneManager'
 import Cube from './Cube'
 import Grid from './Grid'
 import CameraControls from './CameraControls'

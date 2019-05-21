@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import { useEffect } from 'react'
-import { useThree } from '../../lib/ThreeJSManager'
+import { useThree } from '../../lib/SceneManager'
 
 const Cube = props => {
   const { h = 50, w = 50, d = 50, color = 0x00ff00 } = props
