@@ -2,6 +2,14 @@
 
 This project is intended to serve as a starting point to explore working with [three.js](https://threejs.org/) and [Create React App](https://github.com/facebook/create-react-app).
 
+Some key features of this repo include
+
++ Demonstrating how to use React to wrap a vanilla JS library
++ Usage of [React Hooks](https://reactjs.org/docs/hooks-intro.html) starting from a [create-react-app](https://github.com/facebook/create-react-app) project
+  - A custom `useWindowSize` hook was created to demonstrate creating a custom hook **AND** how to test against it
++ A `ReferenceDemo` component which contains a library to generate individual assets for the three.js demo
+  - Sample tests were written in `src/threejs/components/ReferenceDemo/lib/index.test.js` demonstrating how you can programatically test WebGL in a headless environment
+
 ![screencasts/demo.gif](screencasts/demo.gif)
 
 The original ThreeDemo code was based on [https://github.com/jasonsturges/threejs-react-example](https://github.com/jasonsturges/threejs-react-example)
