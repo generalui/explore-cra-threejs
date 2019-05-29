@@ -1,6 +1,10 @@
 {
   "name": "explore-cra-threejs",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/generalui/explore-cra-threejs"
+  },
   "private": true,
   "dependencies": {
     "enzyme": "^3.9.0",
